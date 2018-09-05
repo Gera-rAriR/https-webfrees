@@ -1,0 +1,23 @@
+{
+  "name": "https-webfrees",
+  "scripts": {
+  },
+  "env": {
+    "APP_ID": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
